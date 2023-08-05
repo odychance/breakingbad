@@ -12,9 +12,11 @@ html {
 }
 body {
   /* background-image: url(logo.svg), -webkit-linear-gradient(top left, #007d35 0%, #007d35 40%, #0f574e 100%); */
-  background-image: url(/public/Image/Logo_breaking_bad.webp);
+  background-image: url(/public/image/Logo_breaking_bad.webp);
+  overflow:hidden;
 
-  min-height: 1500px;
+  background-size: 110%, 110% 110%;
+  /* min-height: 1500px; */
   background-position: center center, center center;
   background-repeat:no-repeat;
   /* background-size: 300px, 100% 100%; */

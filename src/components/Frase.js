@@ -2,10 +2,13 @@ import React from 'react'
 import styled from '@emotion/styled' 
 
 const ContenedorFrase = styled.div`
+position: absolute;
+left: 100px;
+top: 300px;
     padding: 3rem;
-    border-radius: .5rem;
+    border-radius: 20px;
     background-color: #fff;
-    max-width: 800ps;
+    max-width: 1100px;
 
     @media (min-width: 992px) {
         margin-top: 10rem;

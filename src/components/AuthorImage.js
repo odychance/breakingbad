@@ -26,7 +26,7 @@ const AuthorImage = (props) => {
         else if(frase.author === "Walter White") return "/image/walterWhite.webp"
         else if(frase.author === "Skyler White") return "/image/skylerWhite.webp"
         else if(frase.author === "Walter White Jr") return "/image/walterWhiteJr.webp"
-        else if(frase.author !== "Badger" || "Gustavo Fring" || "Hank Schrader" || "Jesse Pinkman" || "Mike Ehrmantraut" || "Saul Goodman" || "Walter White" || "Skyler White" || "Walter White Jr") return consultarAPI(), console.log(frase)
+        else if(frase.author !== "Badger" || "Gustavo Fring" || "Hank Schrader" || "Jesse Pinkman" || "Mike Ehrmantraut" || "Saul Goodman" || "Walter White" || "Skyler White" || "Walter White Jr") return consultarAPI()
 
     }
     

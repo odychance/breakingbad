@@ -13,7 +13,8 @@ html {
 body {
   /* background-image: url(logo.svg), -webkit-linear-gradient(top left, #007d35 0%, #007d35 40%, #0f574e 100%); */
   /* background-image: url(`${/image/Logo_breaking_bad.webp}`), -webkit-linear-gradient(top left, #007d35 0%, #007d35 40%, #0f574e 100%); */
-  background-image: url(/public/image/logo_breaking_bad.webp);
+  background-image: url("/public/image/bg.webp");
+  /* background-image: url("/image/logo_breaking_bad.webp"); */
   /* overflow:hidden; */
 
   background-size: 110%, 110% 110%;
